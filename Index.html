@@ -25,31 +25,61 @@
             border-radius: 10px; /* Add rounded corners */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
         }
+        /* Styles for the top navigation links */
+        .top-links {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .top-links a {
+            margin: 0 10px; /* Add spacing between links */
+            color: #333; /* Dark gray */
+            text-decoration: none;
+        }
+        .top-links a:hover {
+            color: #ff4500; /* Orange on hover */
+        }
     </style>
 </head>
 <body>
-    <div class="header">
+    <div class="top-links">
+        <a href="#header">Top</a>
+        <a href="#about">About Me</a>
+        <a href="#places">Places I've Been</a>
+        <a href="#foodies">For Foodies</a>
+    </div>
+
+    <div id="header" class="header">
         <h1>Exploring Bangalore!</h1>
         <p>This is my first stop at my first long trip!</p>
         <img class="small-img" src="images/8e3cc545-0dc7-4562-9b8c-fb941892b1b6.jpg" alt="Bangalore">
     </div>
 
-    <h3>About me:</h3>
-    <p> Hey, Etay here! It took me a while, but I finally went on my big trip too. I'm sharing a little guide to my first stop in Bangalore in hopes that it'll help others navigate easily and not have to hunt for recommendations.
-       <br> A little Wiki Backround: <a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore</a></p>
+    <div id="about">
+        <h3>About me:</h3>
+        <p>Hey, Etay here! It took me a while, but I finally went on my big trip too. I'm sharing a little guide to my first stop in Bangalore in hopes that it'll help others navigate easily and not have to hunt for recommendations.
+        <br>A little Wiki Background: <a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore</a></p>
+    </div>
 
-    <h2>Places I've Been</h2>
-    <ul>
-        <li>Melange Hotel</li>
-        <li>DR Bhat</li>
-        <li>Cubbon Park</li>
-        <li>MTR</li>
-        <li>Bangalore Palace</li>
-    </ul>
-    <h2>For you Foodies</h2>
-    <h4><a href="#">Gallery</a></h4>
+    <div id="places">
+        <h2>Places I've Been</h2>
+        <ul>
+            <li>Melange Hotel</li>
+            <li>DR Bhat</li>
+            <li>Cubbon Park</li>
+            <li>MTR</li>
+            <li>Bangalore Palace</li>
+        </ul>
+    </div>
+
+    <div id="foodies">
+        <h2>For you Foodies</h2>
+        <h4><a href="#">Gallery</a></h4>
+        <!-- Add your gallery content here -->
+    </div>
     
-    <h4><a href="#">Contact Me</a></h4>
-
+    <div id="contact">
+        <h4><a href="#">Contact Me</a></h4>
+        <!-- Add your contact form or details here -->
+    </div>
 </body>
 </html>
