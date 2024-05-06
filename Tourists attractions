@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Vacation - Bangalore</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>The Gallery</h1>
+    </div>
 
+    <img src="images/8e3cc545-0dc7-4562-9b8c-fb941892b1b6.jpg" alt="Image 1">
+    <img src="images/0844428a-8388-41c3-8623-a77d90c24da1.jpg" alt="Image 2">
+    <img src="images/2547655d-e116-4633-be2e-32c1254d01b8.jpg" alt="Image 3">
+    <img src="images/ea96f9df-c55e-49cd-950c-90f9e3e22200.jpg" alt="Image 4">
+    <img src="images/ed1b1498-6c71-4eaf-bbd4-084c0cb241f0.jpg" alt="Image 5">
+    <img src="images/fc5ab878-b2d0-4926-a150-8881b0c1367d.jpg" alt="Image 6">
+
+    <div class="header">
+        <h4><a href="https://prettyfly8.github.io/HTML/Gallery.html">Gallery</a></h4>
+        <h4><a href="https://prettyfly8.github.io/HTML/Contact%20me.html">Contact Me</a></h4>
+    </div>
+</body>
+</html>
