@@ -4,19 +4,73 @@
     <title>My Vacation - Bangalore</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c8e6c9; /* Light green */
+            color: #2e7d32; /* Dark green */
+        }
+        a {
+            text-decoration: none;
+            color: #388e3c; /* Dark green */
+        }
+        a:hover {
+            color: #1b5e20; /* Darker green on hover */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            font-weight: normal;
+        }
+        /* Header styles */
         .header {
-            background-color: lightblue;
+            background-color: #81c784; /* Light green */
             padding: 20px;
             text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
-        h1 {
-            color: white;
+        .header h1 {
+            color: #fff;
+            margin: 0;
+        }
+        /* Top links styles */
+        .top-links {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            background-color: #a5d6a7; /* Light green */
+            border-radius: 5px;
+        }
+        .top-links a {
+            margin: 0 10px;
+            color: #388e3c; /* Dark green */
+        }
+        .top-links a:hover {
+            color: #1b5e20; /* Darker green on hover */
+        }
+        /* Contact section styles */
+        #contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #contact a {
+            color: #388e3c; /* Dark green */
+        }
+        #contact a:hover {
+            color: #1b5e20; /* Darker green on hover */
         }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Contact Me</h1>
+    </div>
+
+    <div class="top-links">
+        <h4><a href="https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%92%D7%9C%D7%95%D7%A8">Main Page</a></h4>
+        <h4><a href="https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%92%D7%9C%D7%95%D7%A8">Contact Me</a></h4>
     </div>
 
     <h2>via:</h2>
@@ -26,9 +80,10 @@
         <li>Linkedin: </li> <!-- You can add your LinkedIn profile link here -->
     </ul>
 
-    <div class="header">
+    <div id="contact">
         <h4><a href="https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%92%D7%9C%D7%95%D7%A8">Main Page</a></h4>
         <h4><a href="https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%92%D7%9C%D7%95%D7%A8">Contact Me</a></h4>
     </div>
 </body>
 </html>
+
