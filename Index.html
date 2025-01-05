@@ -1,52 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="A travel guide for Bangalore, India featuring tourist attractions, food recommendations, and personal experiences">
     <title>Exploring Bangalore!</title>
-    <!-- Move styles to external CSS file -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f8e9; /* Light green */
+            color: #2e7d32; /* Dark green */
+        }
+        a {
+            text-decoration: none;
+            color: #388e3c; /* Dark green */
+        }
+        a:hover {
+            color: #1b5e20; /* Darker green on hover */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            font-weight: normal;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        /* Header styles */
+        .header {
+            background-color: #66bb6a; /* Light green */
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            border-radius: 10px;
+        }
+        .header h1 {
+            margin-bottom: 10px;
+        }
+        .header p {
+            margin: 0;
+            font-size: 18px;
+        }
+        /* Top links styles */
+        .top-links {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            background-color: #a5d6a7; /* Light green */
+            border-radius: 5px;
+        }
+        .top-links a {
+            margin: 0 10px;
+            color: #388e3c; /* Dark green */
+        }
+        .top-links a:hover {
+            color: #1b5e20; /* Darker green on hover */
+        }
+        /* About section styles */
+        #about {
+            background-color: #ffffff; /* White */
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #about h3 {
+            color: #2e7d32; /* Dark green */
+            margin-top: 0;
+        }
+        #about p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        /* Places section styles */
+        #places {
+            background-color: #ffffff; /* White */
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #places h2 {
+            color: #2e7d32; /* Dark green */
+            margin-top: 0;
+        }
+        #places ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #places li {
+            margin-bottom: 10px;
+        }
+        /* Contact section styles */
+        #contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #contact a {
+            color: #388e3c; /* Dark green */
+        }
+        #contact a:hover {
+            color: #1b5e20; /* Darker green on hover */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <nav class="top-links">
-            <a href="#" aria-current="page">Index</a>
-            <a href="https://prettyfly8.github.io/HTML/Tourists%20attractions.html">Tourist Attractions</a>
-            <a href="https://prettyfly8.github.io/HTML/For%20you%20Foodies.html">For Foodies</a>
+        <div class="top-links">
+            <a href="#">Index</a>
+            <a href="https://prettyfly8.github.io/HTML/Tourists%20attractions.html">Tourists attractions</a>
+            <a href="https://prettyfly8.github.io/HTML/For%20you%20Foodies.html">For you Foodies</a>
             <a href="https://prettyfly8.github.io/HTML/Gallery.html">Gallery</a>
             <a href="https://prettyfly8.github.io/HTML/Contact%20me.html">Contact Me</a>
-        </nav>
+        </div>
 
-        <header class="header">
+        <div class="header">
             <h1>Exploring Bangalore!</h1>
-            <img class="banner-img" src="images/8e3cc545-0dc7-4562-9b8c-fb941892b1b6.jpg" alt="Scenic view of Bangalore city">
-        </header>
+            <img class="small-img" src="images/8e3cc545-0dc7-4562-9b8c-fb941892b1b6.jpg" alt="Bangalore">
+        </div>
 
-        <main>
-            <section id="about">
-                <h2>About me</h2>
-                <p>Hey, Etay here! It took me a while, but I finally went on my big trip too. My mom doesn't have Instagram, and I'm a really nice boy, so I built her a website that brings together all the info and some photos of me to prove I'm alive and well. If this helps you while you're traveling in Bangalore, it'll make me really happy! So I'm sharing a little guide to my first stop in Bangalore.</p>
-                <p>Learn more about Bangalore on <a href="https://en.wikipedia.org/wiki/Bangalore" target="_blank" rel="noopener noreferrer">Wikipedia</a></p>
-            </section>
+        <div id="about">
+            <h3>About me:</h3>
+            <p>Hey, Etay here! It took me a while, but I finally went on my big trip too. My mom doesn't have Instagram, and I'm a really nice boy, so I built her a website that brings together all the info and some photos of me to prove I'm alive and well. If this helps you while you're traveling in Bangalore, it'll make me really happy! So I'm sharing a little guide to my first stop in Bangalore.</p>
+            <p>A little Wiki Background: <a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore</a></p>
+        </div>
 
-            <section id="places">
-                <h2>Site Map</h2>
-                <nav>
-                    <ul>
-                        <li><a href="#" aria-current="page">Index</a></li>
-                        <li><a href="https://prettyfly8.github.io/HTML/Tourists%20attractions.html">Tourist Attractions</a></li>
-                        <li><a href="https://prettyfly8.github.io/HTML/For%20you%20Foodies.html">For Foodies</a></li>
-                        <li><a href="https://prettyfly8.github.io/HTML/Gallery.html">Gallery</a></li>
-                        <li><a href="https://prettyfly8.github.io/HTML/Contact%20me.html">Contact Me</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </main>
+        <div id="places">
+            <h2>Site Map:</h2>
+            <ul>
+                <li><a href="#">Index</a></li>
+                <li><a href="https://prettyfly8.github.io/HTML/Tourists%20attractions.html">Tourists attractions</a></li>
+                <li><a href="https://prettyfly8.github.io/HTML/For%20you%20Foodies.html">For you Foodies</a></li>
+                <li><a href="https://prettyfly8.github.io/HTML/Gallery.html">Gallery</a></li>
+                <li><a href="https://prettyfly8.github.io/HTML/Contact%20me.html">Contact me</a></li>
+            </ul>
+        </div>
 
-        <footer id="contact">
-            <h3><a href="https://prettyfly8.github.io/HTML/Contact%20me.html">Contact Me</a></h3>
-        </footer>
+        <div id="contact">
+            <h4><a href="#">Contact Me</a></h4>
+            <!-- Add your contact form or details here -->
+        </div>
     </div>
 </body>
 </html>
